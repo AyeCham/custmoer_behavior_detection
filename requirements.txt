@@ -1,0 +1,5 @@
+ultralytics==8.1.33
+opencv-python
+flask
+pandas
+numpy
