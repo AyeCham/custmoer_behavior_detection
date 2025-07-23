@@ -18,21 +18,24 @@ This project is a real-time customer-staff engagement tracker with a web-based d
    cd YOUR_REPO
 
 2. Create a virtual environment:
-
+    ```bash
     python3 -m venv venv
     source venv/bin/activate
 
 3. Install dependencies:
+    ```bash
     pip install -r requirements.txt
 
 4. Run the system
+    ```bash
     python app.py
 
 ## File structure
-├── app.py               # RTSP stream + detection
-├── detection.py         # YOLO detection logic
-├── dashboard.py         # Flask dashboard server
-├── engagement_log.csv   # Logs customer-staff interactions
-└── best.pt              # custom model for staff and customer detection
-├── .gitignore
-└── README.md
+    ```bash
+    ├── app.py               # RTSP stream + detection
+    ├── detection.py         # YOLO detection logic
+    ├── dashboard.py         # Flask dashboard server
+    ├── engagement_log.csv   # Logs customer-staff interactions
+    └── best.pt              # custom model for staff and customer detection
+    ├── .gitignore
+    └── README.md
