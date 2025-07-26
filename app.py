@@ -5,7 +5,7 @@ import time
 import subprocess
 from detection import detect_and_track_engagement, reset_engagement_tracking
 
-RTSP_URL = 'rtsp://admin:AiCRI2o24@192.168.6.249:554/cam/realmonitor?channel=1&subtype=00'
+RTSP_URL = 'your live stream data from cmarea feed in rtsp_live_stream'
 CSV_FILE = 'engagement_log.csv'
 
 csv_fields = ['timestamp', 'staff_idx', 'staff_bbox', 'customer_idx', 'customer_bbox', 'distance_px', 'engagement_start', 'engagement_end', 'duration_sec']
